@@ -200,4 +200,4 @@ let botembed = new Discord.RichEmbed()
 
 });
 
-bot.login(tokenfile.token);
+bot.login(process.env.BOT_TOKEN);
