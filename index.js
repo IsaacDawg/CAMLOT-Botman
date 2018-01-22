@@ -185,6 +185,7 @@ reportschannel.send(reportEmbed);
 
 // Information about the bot
   if(cmd === `${prefix}botinfo`){
+
 let bicon = bot.user.displayAvatarURL;
 let botembed = new Discord.RichEmbed()
 .setDescription("Bot Informatiom")
